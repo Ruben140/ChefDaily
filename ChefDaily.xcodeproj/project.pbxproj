@@ -11,6 +11,10 @@
 		7B7EC6552C98BE21008E3750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EC6542C98BE21008E3750 /* ContentView.swift */; };
 		7B7EC6572C98BE23008E3750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7EC6562C98BE23008E3750 /* Assets.xcassets */; };
 		7B7EC65A2C98BE23008E3750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7EC6592C98BE23008E3750 /* Preview Assets.xcassets */; };
+		7B7EC6612C98BF54008E3750 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EC6602C98BF54008E3750 /* MealModel.swift */; };
+		7B7EC6632C98BFDD008E3750 /* MealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EC6622C98BFDD008E3750 /* MealService.swift */; };
+		7B7EC6652C98C19F008E3750 /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EC6642C98C19F008E3750 /* MealViewModel.swift */; };
+		7B7EC6672C98C40E008E3750 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EC6662C98C40E008E3750 /* MealDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7B7EC6542C98BE21008E3750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B7EC6562C98BE23008E3750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7EC6592C98BE23008E3750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B7EC6602C98BF54008E3750 /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		7B7EC6622C98BFDD008E3750 /* MealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealService.swift; sourceTree = "<group>"; };
+		7B7EC6642C98C19F008E3750 /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		7B7EC6662C98C40E008E3750 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				7B7EC6542C98BE21008E3750 /* ContentView.swift */,
 				7B7EC6562C98BE23008E3750 /* Assets.xcassets */,
 				7B7EC6582C98BE23008E3750 /* Preview Content */,
+				7B7EC6602C98BF54008E3750 /* MealModel.swift */,
+				7B7EC6622C98BFDD008E3750 /* MealService.swift */,
+				7B7EC6642C98C19F008E3750 /* MealViewModel.swift */,
+				7B7EC6662C98C40E008E3750 /* MealDetailView.swift */,
 			);
 			path = ChefDaily;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7EC6672C98C40E008E3750 /* MealDetailView.swift in Sources */,
+				7B7EC6632C98BFDD008E3750 /* MealService.swift in Sources */,
+				7B7EC6652C98C19F008E3750 /* MealViewModel.swift in Sources */,
 				7B7EC6552C98BE21008E3750 /* ContentView.swift in Sources */,
+				7B7EC6612C98BF54008E3750 /* MealModel.swift in Sources */,
 				7B7EC6532C98BE21008E3750 /* ChefDailyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
